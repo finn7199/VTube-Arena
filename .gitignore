@@ -76,7 +76,9 @@ crashlytics-build.properties
 # Python StreamingAssets Tracking
 # Ignore library installs and metadata
 /[Aa]ssets/[Ss]treamingAssets/MediaPipe/libs/
+/[Aa]ssets/[Ss]treamingAssets/MediaPipe/libs.meta
 /[Aa]ssets/[Ss]treamingAssets/MediaPipe/__pycache__/
+/[Aa]ssets/[Ss]treamingAssets/MediaPipe/__pycache__.meta
 /[Aa]ssets/[Ss]treamingAssets/MediaPipe/*.dist-info/
 
 # Keep requirements, py, and models.

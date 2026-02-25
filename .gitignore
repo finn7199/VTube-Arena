@@ -72,3 +72,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Python StreamingAssets Tracking
+# Ignore library installs and metadata
+**/StreamingAssets/libs/
+**/StreamingAssets/__pycache__/
+**/StreamingAssets/*.dist-info/
+
+# Keep requirements, py, and models.
+!**/StreamingAssets/mediapipe_tracker.py
+!**/StreamingAssets/requirements.txt
+!**/StreamingAssets/models/
